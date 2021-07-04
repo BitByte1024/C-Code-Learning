@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+	char ch = 'A';                      //向计算机申请内存
+	printf("%c\n", ch);                 //%c - 打印字符格式的数据
+	return 0;
+}
+
+
+//int              整型
+//short            短整型
+//long             长整型
+//long long        更长的整型
+//char             字符类型
+//float            单精度浮点数
+//double           双精度浮点数
+
+//%c     打印字符
+//%d     打印整型
+//%f     打印浮点数字（打小数）
+//%p     以地址形式打印
+//%x     打印16进制
