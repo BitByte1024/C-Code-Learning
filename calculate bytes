@@ -1,0 +1,24 @@
+//每个运算要申请的内存byte
+#include <stdio.h>
+int main()
+{
+	printf("%d\n", sizeof(char));          //1
+	printf("%d\n", sizeof(short));         //2
+	printf("%d\n", sizeof(int));           //4
+	printf("%d\n", sizeof(long));          //4 （其实4或8）
+	printf("%d\n", sizeof(long long));     //8
+	printf("%d\n", sizeof(float));         //4
+	printf("%d\n", sizeof(double));        //8
+	return 0;
+}
+
+//bit      比特位   能储存一个“0”或“1”
+//byte     字节     1 byte = 8 bit
+//kb       1 kb = 1024 byte
+//mb       1 mb = 1024 kb
+//gb       1 gb = 1024 mb
+//tb       1 tb = 1024 gb
+//pb       1 pb = 1024 tb
+
+//以short为例
+// 2 byte = 16 bit    可以储存16位0或1，所以short能容纳的最大数是2^16 - 1 = 65535
